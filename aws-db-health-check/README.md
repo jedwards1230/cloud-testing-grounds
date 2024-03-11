@@ -25,6 +25,14 @@ terraform init
 terraform apply
 ```
 
+### View outputs
+
+This will show the db instance endpoint and the db credentials.
+
+```bash
+terraform output
+```
+
 ### Run health check
 
 ```bash
